@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hon"
+version = "0.14.0"
+description = ""
+authors = ["Hatoris <florianxbernard@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyhOn = "^0.17.5"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12"
+flake8 = "^6.0"
+mypy = "^0.991"
+pylint = "^2.15"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
